@@ -42,13 +42,13 @@ public class MainApp extends Application {
      */
     public MainApp() {
         // Add some sample data
-        personData.add(new Person("Hans", "Muster"));
-        personData.add(new Person("Ruth", "Mueller"));
-        personData.add(new Person("Heinz", "Kurz"));
-        personData.add(new Person("Cornelia", "Meier"));
-        personData.add(new Person("Werner", "Meyer"));
-        personData.add(new Person("Lydia", "Kunz"));
-        personData.add(new Person("Anna", "Best"));
+        personData.add(new Person("Mohammed", "Sajid"));
+        personData.add(new Person("Arun", "Panchal"));
+        personData.add(new Person("Aarohan", "Sabyasachi"));
+        personData.add(new Person("Keerthy", "Kumaran"));
+        personData.add(new Person("Priyanka", "Prasad"));
+        personData.add(new Person("Gautam", "Shankar"));
+        personData.add(new Person("Uday", "Venkatesh"));
         personData.add(new Person("Stefan", "Meier"));
         personData.add(new Person("Martin", "Mueller"));
     }
