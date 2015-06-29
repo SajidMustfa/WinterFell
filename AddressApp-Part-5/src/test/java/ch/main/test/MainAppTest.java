@@ -10,19 +10,24 @@ import ch.makery.address.*;
 
 public class MainAppTest {
 	MainApp objMA =new MainApp();
+	
+	@BeforeMethod
+	  public void beforeMethod() {
+		  
+	  }
+	
+	
+	
   @Test
-  public void TestClass() {
+  	public void TestClass() {
 	  Object actual=objMA.getPersonFilePath();
 	  Object expected=null;
 	  Assert.assertEquals(actual, expected);
   }
-  @BeforeMethod
-  public void beforeMethod() {
-	  
-  }
+
 
   @AfterMethod
-  public void afterMethod() {
+  	public void afterMethod() {
   }
 
 }
