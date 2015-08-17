@@ -17,13 +17,13 @@ public class MainAppTest {
 	  }
 	
 	
-	
+/*	
   @Test
   	public void TestClass() {
 	  Object actual=objMA.getPersonFilePath();
 	  Object expected=null;
 	  Assert.assertEquals(actual, expected);
-  }
+  }*/
 
 
   @AfterMethod
